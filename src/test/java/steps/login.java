@@ -13,6 +13,7 @@ public class login {
     @Given("user calculated {int}+{int}")
     public void userCalculated(int arg0, int arg1) {
 		System.out.println(arg0 + arg1);
+        System.out.println("Sum of two numbers");
     }
 
     @Given("user is on login page")
